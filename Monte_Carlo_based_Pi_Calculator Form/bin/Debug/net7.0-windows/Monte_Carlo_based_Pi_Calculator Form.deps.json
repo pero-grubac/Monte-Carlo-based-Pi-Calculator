@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Monte_Carlo_based_Pi_Calculator Form/1.0.0": {
+        "runtime": {
+          "Monte_Carlo_based_Pi_Calculator Form.dll": {}
+        }
+      },
+      "Monte Carlo-based Pi Calculator/1.0.0": {
+        "runtime": {
+          "Monte Carlo-based Pi Calculator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Monte_Carlo_based_Pi_Calculator Form/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Monte Carlo-based Pi Calculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

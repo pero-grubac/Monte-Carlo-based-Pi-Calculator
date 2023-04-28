@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monte Carlo-based Pi Calculator", "Monte Carlo-based Pi Calculator.csproj", "{CBF93E61-C594-4176-A594-45FA2216D6A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monte_Carlo_based_Pi_Calculator Form", "..\Monte_Carlo_based_Pi_Calculator Form\Monte_Carlo_based_Pi_Calculator Form.csproj", "{295C4ABE-2B0A-450D-B204-0516A851885A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBF93E61-C594-4176-A594-45FA2216D6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF93E61-C594-4176-A594-45FA2216D6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF93E61-C594-4176-A594-45FA2216D6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF93E61-C594-4176-A594-45FA2216D6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295C4ABE-2B0A-450D-B204-0516A851885A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295C4ABE-2B0A-450D-B204-0516A851885A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295C4ABE-2B0A-450D-B204-0516A851885A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295C4ABE-2B0A-450D-B204-0516A851885A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE05F24A-71E9-4DA8-8BC5-8B1168381790}
+	EndGlobalSection
+EndGlobal
