@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MonteCarloPi.Core/MonteCarloPi.Core.csproj" />
+    <Project Path="src/MonteCarloPi.Desktop/MonteCarloPi.Desktop.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MonteCarloPi.Core.Tests/MonteCarloPi.Core.Tests.csproj" />
+  </Folder>
+</Solution>

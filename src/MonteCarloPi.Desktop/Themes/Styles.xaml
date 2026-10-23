@@ -1,0 +1,99 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <!-- Points outside the circle: orange, readable next to any accent colour in light and dark mode. -->
+  <SolidColorBrush x:Key="OutsideBrush" Color="#F2994A" />
+
+  <FontFamily x:Key="DigitsFont">Cascadia Mono, Consolas</FontFamily>
+
+  <FontFamily x:Key="IconFont">Segoe Fluent Icons, Segoe MDL2 Assets</FontFamily>
+
+  <Style x:Key="Card" TargetType="Border">
+    <Setter Property="Background" Value="{DynamicResource CardBackgroundFillColorDefaultBrush}" />
+    <Setter Property="BorderBrush" Value="{DynamicResource CardStrokeColorDefaultBrush}" />
+    <Setter Property="BorderThickness" Value="1" />
+    <Setter Property="CornerRadius" Value="8" />
+    <Setter Property="Padding" Value="20,16" />
+  </Style>
+
+  <Style x:Key="CardTitle" TargetType="TextBlock">
+    <Setter Property="FontSize" Value="15" />
+    <Setter Property="FontWeight" Value="SemiBold" />
+    <Setter Property="Foreground" Value="{DynamicResource TextFillColorPrimaryBrush}" />
+    <Setter Property="VerticalAlignment" Value="Center" />
+  </Style>
+
+  <Style x:Key="Caption" TargetType="TextBlock">
+    <Setter Property="FontSize" Value="12" />
+    <Setter Property="Foreground" Value="{DynamicResource TextFillColorSecondaryBrush}" />
+    <Setter Property="TextWrapping" Value="Wrap" />
+  </Style>
+
+  <Style x:Key="FieldLabel" TargetType="TextBlock">
+    <Setter Property="FontSize" Value="13" />
+    <Setter Property="Foreground" Value="{DynamicResource TextFillColorPrimaryBrush}" />
+    <Setter Property="VerticalAlignment" Value="Center" />
+  </Style>
+
+  <Style x:Key="ValueText" TargetType="TextBlock">
+    <Setter Property="FontSize" Value="13" />
+    <Setter Property="FontWeight" Value="SemiBold" />
+    <Setter Property="Foreground" Value="{DynamicResource TextFillColorPrimaryBrush}" />
+    <Setter Property="HorizontalAlignment" Value="Right" />
+    <Setter Property="VerticalAlignment" Value="Center" />
+  </Style>
+
+  <Style x:Key="Icon" TargetType="TextBlock">
+    <Setter Property="FontFamily" Value="{StaticResource IconFont}" />
+    <Setter Property="FontSize" Value="14" />
+    <Setter Property="VerticalAlignment" Value="Center" />
+  </Style>
+
+  <Style x:Key="ToolbarButton" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+    <Setter Property="Background" Value="Transparent" />
+    <Setter Property="BorderBrush" Value="Transparent" />
+    <Setter Property="Padding" Value="10,6" />
+    <Setter Property="Margin" Value="2,0" />
+  </Style>
+
+  <!-- Small icon-only button, for example "remove file". -->
+  <Style x:Key="IconButton" TargetType="Button" BasedOn="{StaticResource ToolbarButton}">
+    <Setter Property="Padding" Value="6" />
+    <Setter Property="Margin" Value="0" />
+    <Setter Property="FontFamily" Value="{StaticResource IconFont}" />
+    <Setter Property="FontSize" Value="12" />
+  </Style>
+
+  <!-- A preset chip; highlighted while the settings match it. -->
+  <Style x:Key="PresetButton" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+    <Setter Property="Padding" Value="14,6" />
+    <Setter Property="Margin" Value="0,0,8,8" />
+  </Style>
+
+  <Style x:Key="MetricValue" TargetType="TextBlock">
+    <Setter Property="FontSize" Value="16" />
+    <Setter Property="FontWeight" Value="SemiBold" />
+    <Setter Property="Foreground" Value="{DynamicResource TextFillColorPrimaryBrush}" />
+    <Setter Property="Margin" Value="0,2,0,12" />
+  </Style>
+
+  <Style x:Key="ErrorText" TargetType="TextBlock" BasedOn="{StaticResource Caption}">
+    <Setter Property="Foreground" Value="{DynamicResource SystemFillColorCriticalBrush}" />
+    <Setter Property="Margin" Value="0,4,0,0" />
+  </Style>
+
+  <Style x:Key="StepperButton" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+    <Setter Property="Width" Value="32" />
+    <Setter Property="Height" Value="32" />
+    <Setter Property="Padding" Value="0" />
+    <Setter Property="FontFamily" Value="{StaticResource IconFont}" />
+    <Setter Property="FontSize" Value="11" />
+  </Style>
+
+  <Style x:Key="StatusBadge" TargetType="Border">
+    <Setter Property="CornerRadius" Value="10" />
+    <Setter Property="Padding" Value="8,2" />
+    <Setter Property="VerticalAlignment" Value="Center" />
+  </Style>
+
+</ResourceDictionary>
