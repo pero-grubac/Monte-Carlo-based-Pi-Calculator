@@ -13,7 +13,7 @@
 
 **Estimate π by throwing random points at a square: watch them land, see the digits turn green as they become correct, and follow how slowly Monte Carlo converges.**
 
-<img src="readme_assets/demo.gif" alt="Monte Carlo π demo: a million points landing in the square, a search that stops when four decimals match, and a billion points at full speed" width="900">
+<img src="readme_assets/demo.gif" alt="Monte Carlo π demo: a million points landing in the square, a run that stops as soon as four decimals match, and a billion points at full speed" width="900">
 
 </div>
 
